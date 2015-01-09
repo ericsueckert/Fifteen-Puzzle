@@ -1,0 +1,76 @@
+/*
+ * Eric Eckert CSE 154 AC
+ * Fifteen
+ * Style sheet for fifteen.html
+ */
+body {
+    font-size: 14pt;
+    font-family: cursive;
+    text-align: center;
+}
+
+#puzzlearea {
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.tile {
+    border: 5px solid black;
+    background-image: url("background.jpg");
+    text-align: center;
+    line-height: 100px;
+    font-size: 40pt;
+    position: absolute;
+}
+
+.tile {
+    height: 90px;
+    width: 90px;
+    margin: 0px;
+}
+
+#p1, #p5, #p9, #p13 {
+    background-position-x: 0px;
+}
+
+#p2, #p6, #p10, #p14 {
+    background-position-x: -100px;
+    left: 100px;
+}
+
+#p3, #p7, #p11, #p15 {
+    background-position-x: -200px;
+    left: 200px;
+}
+
+#p4, #p8, #p12 {
+    background-position-x: -300px;
+    left: 300px;
+}
+
+#p1, #p2, #p3, #p4 {
+    background-position-y: 0px;
+}
+
+#p5, #p6, #p7, #p8 {
+    background-position-y: -100px;
+    top: 100px;
+}
+
+#p9, #p10, #p11, #p12 {
+    background-position-y: -200px;
+    top: 200px;
+}
+
+#p13, #p14, #p15 {
+    background-position-y: -300px;
+    top: 300px;
+}
+
+#w3c {
+    float: right;
+    display: block;
+    width: 100px;
+}
